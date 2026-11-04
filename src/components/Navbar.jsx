@@ -7,7 +7,7 @@ function Navbar() {
     const menus = [
         { name: "Home", path: "/" },
         { name: "About", path: "/about" },
-        { name: "Services", path: "/services" },
+        { name: "Projects", path: "/projects" },
         { name: "Contact", path: "/contact" },
     ]
 
@@ -15,7 +15,7 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <Link style={{textDecoration:"none", color:"#fff"}} path="/">
-                    <h2>Studior4</h2>
+                    <h2>Kavitha V</h2>
                 </Link>
                 <button className='menubar' type='button' onClick={() => setShow(!show)}>
                     {show ? <i className="bi bi-x-circle"></i> : <i className="bi bi-list"></i>}
